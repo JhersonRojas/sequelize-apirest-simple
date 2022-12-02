@@ -1,6 +1,4 @@
-import { Usuario } from '../Models/Usuarios.js';
 import jsonwebtoken from 'jsonwebtoken';
-
 
 export const validacion = async (req, resp, next) => {
     try {

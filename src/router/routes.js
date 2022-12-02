@@ -1,6 +1,7 @@
 import { Router } from 'express'
 import { validacion } from '../secure/secure.js'
 
+    /* Importación de los controladores a las rutas donde seran llamados */
 import { crearUsu, borrarUsu, actualizarUsu, listarUsu, login, searchUsu } from '../controller/con_usuario.js'
 import { listarFi, crearFi, actualizarFi, borrarFi } from '../controller/con_fichas.js'
 import { listarPro, crearPro, actualizarPro, borrarPro } from '../controller/con_programas.js'
